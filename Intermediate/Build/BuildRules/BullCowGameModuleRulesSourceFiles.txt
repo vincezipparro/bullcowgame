@@ -1,0 +1,3 @@
+/Users/vincezipparro/Desktop/Unreal Projects/bullcowgame/Source/BullCowGame/BullCowGame.Build.cs
+/Users/vincezipparro/Desktop/Unreal Projects/bullcowgame/Source/BullCowGame.Target.cs
+/Users/vincezipparro/Desktop/Unreal Projects/bullcowgame/Source/BullCowGameEditor.Target.cs
