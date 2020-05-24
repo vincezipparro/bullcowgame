@@ -1,0 +1,9 @@
+{
+	"files.exclude": {
+		"/Users/vincezipparro/Desktop/Unreal Projects/bullcowgame/.git": true,
+		"/Users/vincezipparro/Desktop/Unreal Projects/bullcowgame/.vscode": true,
+		"/Users/vincezipparro/Desktop/Unreal Projects/bullcowgame/Content": true,
+		"/Users/vincezipparro/Desktop/Unreal Projects/bullcowgame/Intermediate": true,
+		"/Users/vincezipparro/Desktop/Unreal Projects/bullcowgame/Saved": true
+	}
+}
