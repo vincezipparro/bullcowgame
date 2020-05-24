@@ -4,8 +4,8 @@
 void UBullCowCartridge::BeginPlay() // When the game starts
 {
     Super::BeginPlay();
-    PrintLine("Welcome to the Bull Cow Game!");
-    PrintLine("Press enter to continue...");
+    PrintLine(TEXT("Welcome to the Bull Cow Game!"));
+    PrintLine(TEXT("Press enter to continue..."));
 }
 
 void UBullCowCartridge::OnInput(const FString& Input) // When the player hits enter
