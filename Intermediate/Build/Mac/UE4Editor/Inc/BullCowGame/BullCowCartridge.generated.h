@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BULLCOWGAME_BullCowCartridge_generated_h
 
-#define bullcowgame_Source_BullCowGame_BullCowCartridge_h_12_RPC_WRAPPERS
-#define bullcowgame_Source_BullCowGame_BullCowCartridge_h_12_RPC_WRAPPERS_NO_PURE_DECLS
-#define bullcowgame_Source_BullCowGame_BullCowCartridge_h_12_INCLASS_NO_PURE_DECLS \
+#define bullcowgame_Source_BullCowGame_BullCowCartridge_h_13_RPC_WRAPPERS
+#define bullcowgame_Source_BullCowGame_BullCowCartridge_h_13_RPC_WRAPPERS_NO_PURE_DECLS
+#define bullcowgame_Source_BullCowGame_BullCowCartridge_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUBullCowCartridge(); \
 	friend struct Z_Construct_UClass_UBullCowCartridge_Statics; \
@@ -24,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(UBullCowCartridge)
 
 
-#define bullcowgame_Source_BullCowGame_BullCowCartridge_h_12_INCLASS \
+#define bullcowgame_Source_BullCowGame_BullCowCartridge_h_13_INCLASS \
 private: \
 	static void StaticRegisterNativesUBullCowCartridge(); \
 	friend struct Z_Construct_UClass_UBullCowCartridge_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(UBullCowCartridge)
 
 
-#define bullcowgame_Source_BullCowGame_BullCowCartridge_h_12_STANDARD_CONSTRUCTORS \
+#define bullcowgame_Source_BullCowGame_BullCowCartridge_h_13_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UBullCowCartridge(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UBullCowCartridge) \
@@ -46,7 +46,7 @@ private: \
 public:
 
 
-#define bullcowgame_Source_BullCowGame_BullCowCartridge_h_12_ENHANCED_CONSTRUCTORS \
+#define bullcowgame_Source_BullCowGame_BullCowCartridge_h_13_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UBullCowCartridge(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -59,26 +59,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UBullCowCartridge); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UBullCowCartridge)
 
 
-#define bullcowgame_Source_BullCowGame_BullCowCartridge_h_12_PRIVATE_PROPERTY_OFFSET
-#define bullcowgame_Source_BullCowGame_BullCowCartridge_h_9_PROLOG
-#define bullcowgame_Source_BullCowGame_BullCowCartridge_h_12_GENERATED_BODY_LEGACY \
+#define bullcowgame_Source_BullCowGame_BullCowCartridge_h_13_PRIVATE_PROPERTY_OFFSET
+#define bullcowgame_Source_BullCowGame_BullCowCartridge_h_10_PROLOG
+#define bullcowgame_Source_BullCowGame_BullCowCartridge_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	bullcowgame_Source_BullCowGame_BullCowCartridge_h_12_PRIVATE_PROPERTY_OFFSET \
-	bullcowgame_Source_BullCowGame_BullCowCartridge_h_12_RPC_WRAPPERS \
-	bullcowgame_Source_BullCowGame_BullCowCartridge_h_12_INCLASS \
-	bullcowgame_Source_BullCowGame_BullCowCartridge_h_12_STANDARD_CONSTRUCTORS \
+	bullcowgame_Source_BullCowGame_BullCowCartridge_h_13_PRIVATE_PROPERTY_OFFSET \
+	bullcowgame_Source_BullCowGame_BullCowCartridge_h_13_RPC_WRAPPERS \
+	bullcowgame_Source_BullCowGame_BullCowCartridge_h_13_INCLASS \
+	bullcowgame_Source_BullCowGame_BullCowCartridge_h_13_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define bullcowgame_Source_BullCowGame_BullCowCartridge_h_12_GENERATED_BODY \
+#define bullcowgame_Source_BullCowGame_BullCowCartridge_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	bullcowgame_Source_BullCowGame_BullCowCartridge_h_12_PRIVATE_PROPERTY_OFFSET \
-	bullcowgame_Source_BullCowGame_BullCowCartridge_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	bullcowgame_Source_BullCowGame_BullCowCartridge_h_12_INCLASS_NO_PURE_DECLS \
-	bullcowgame_Source_BullCowGame_BullCowCartridge_h_12_ENHANCED_CONSTRUCTORS \
+	bullcowgame_Source_BullCowGame_BullCowCartridge_h_13_PRIVATE_PROPERTY_OFFSET \
+	bullcowgame_Source_BullCowGame_BullCowCartridge_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	bullcowgame_Source_BullCowGame_BullCowCartridge_h_13_INCLASS_NO_PURE_DECLS \
+	bullcowgame_Source_BullCowGame_BullCowCartridge_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
