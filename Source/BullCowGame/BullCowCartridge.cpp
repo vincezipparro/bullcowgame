@@ -9,8 +9,7 @@ void UBullCowCartridge::BeginPlay() // When the game starts
     PrintLine(TEXT("Press enter to continue..."));
 
     // setting up game
-    HiddenWord = TEXT("cake"); // set the hiddenword
-    // set lives
+    InitGame();
 
     // prompt player for guess
 }
@@ -22,13 +21,13 @@ void UBullCowCartridge::OnInput(const FString& Input) // When the player hits en
     //checking playerguess
     if(Input == HiddenWord)
     {
-        PrintLine(TEXT("Correct guess.."));
+        PrintLine(TEXT("You win!"));
 
 
     }
     else
     {
-        PrintLine(TEXT("Wrong guess.."));
+        PrintLine(TEXT("You Lose!"));
     }
 
     // check if isogram
@@ -45,4 +44,10 @@ void UBullCowCartridge::OnInput(const FString& Input) // When the player hits en
     // prompt to playagain, press enter to play again?
     // check user input
     // playagain or quit
+}
+
+void UBullCowCartridge::InitGame()
+{
+    HiddenWord = TEXT("cake");
+    Lives = 4;
 }
