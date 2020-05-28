@@ -8,7 +8,6 @@ void UBullCowCartridge::BeginPlay() // When the game starts
     PrintLine(TEXT("Guess the 4 letter word!")); 
     PrintLine(TEXT("Press enter to continue..."));
 
-    // setting up game
     SetUpGame();
 
     // prompt player for guess
@@ -22,11 +21,13 @@ void UBullCowCartridge::OnInput(const FString& Input) // When the player hits en
     if(Input == HiddenWord)
     {
         PrintLine(TEXT("You win!"));
-
-
     }
     else
     {
+        if(Input.Len() != HiddenWord.Len())
+        {
+           PrintLine(TEXT("The Hidden Word is 4 characters long, try again!")); 
+        }
         PrintLine(TEXT("You Lose!"));
     }
 
