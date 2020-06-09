@@ -4,11 +4,14 @@
 void UBullCowCartridge::BeginPlay() // When the game starts
 {
     Super::BeginPlay();
-    PrintLine(TEXT("Welcome to the Bull Cow Game!"));
-    PrintLine(TEXT("Guess the 4 letter word!")); 
-    PrintLine(TEXT("Press enter to continue..."));
-
+    
     SetUpGame();
+
+    PrintLine(TEXT("The Hiddenword is: %s \n It is %i characters long"), *HiddenWord, HiddenWord.Len()); //Debug Line
+
+    PrintLine(TEXT("Welcome to the Bull Cow Game!"));
+    PrintLine(TEXT("Guess the %i letter word!"), *HiddenWord); 
+    PrintLine(TEXT("Press enter to continue..."));
 
     // prompt player for guess
 }
@@ -26,9 +29,9 @@ void UBullCowCartridge::OnInput(const FString& Input) // When the player hits en
     {
         if(Input.Len() != HiddenWord.Len())
         {
-           PrintLine(TEXT("The Hidden Word is 4 characters long, try again!")); 
+           PrintLine(TEXT("The Hidden Word is %s characters long, try again!"), *HiddenWord); 
         }
-        PrintLine(TEXT("You Lose!"));
+        PrintLine(TEXT("Incorrect, you have %i lives left"), Lives);
     }
 
     // check if isogram
